@@ -32,11 +32,13 @@ export class AppComponent {
 
   }
 
-  markAsDone(){
+  markAsDone(todo: Todo){
+    todo.done = true;
 
   }
 
-  markAsUndone(){
+  markAsUndone(todo: Todo){
+    todo.done = false;
 
   }
 
