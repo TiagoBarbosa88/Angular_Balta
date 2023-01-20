@@ -19,7 +19,7 @@ export class AppComponent {
       title: ['', Validators.compose([
         Validators.minLength(3),
         Validators.maxLength(60),
-        Validators.required
+        Validators.required,
       ])]
     });
 
