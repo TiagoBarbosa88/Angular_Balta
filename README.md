@@ -12,10 +12,10 @@ Aulas do curso de Angular no Balta.Io [Curso Grátis](https://balta.io/cursos/co
 - [x] - Objetos Complexos
 - [x] - ngIf
 - [x] - Removendo um Item
-- [ ] - Alterando um Item
-- [ ] - Forms Básico
-- [ ] - Exibindo as Validações
-- [ ] - Desabilitando o Botão
+- [x] - Alterando um Item
+- [x] - Forms Básico
+- [x] - Exibindo as Validações
+- [x] - Desabilitando o Botão
 - [ ] - Adicionando uma Tarefa
 - [ ] - Salvando os Itens
 - [ ] - Lendo os Itens
