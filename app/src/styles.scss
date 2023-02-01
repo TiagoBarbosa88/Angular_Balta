@@ -1,21 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-
-}
-
 body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
   background: #8360c3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: 'Montserrat', sans-serif ;
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 button {
@@ -74,8 +67,38 @@ li>button:hover {
   color: #fff;
   border-radius: 30px;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 100;
   padding-left: 50px;
   padding-right: 50px;
 }
 
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+#modal>h1 {
+  font-weight: 300;
+}
+
+input {
+  width: 100%;
+  line-height: 50px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+.danger {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
