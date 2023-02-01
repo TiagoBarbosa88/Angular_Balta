@@ -16,12 +16,12 @@ Aulas do curso de Angular no Balta.Io [Curso Grátis](https://balta.io/cursos/co
 - [x] - Forms Básico
 - [x] - Exibindo as Validações
 - [x] - Desabilitando o Botão
-- [ ] - Adicionando uma Tarefa
-- [ ] - Salvando os Itens
-- [ ] - Lendo os Itens
-- [ ] - Estilizando o Corpo da Página
-- [ ] - Estilizando os Itens
-- [ ] - Estilizando o Botão
-- [ ] - Alternando as Visualizações
-- [ ] - Estilizando o Formulário
-- [ ] - Estilizando as Ações da Lista
+- [x] - Adicionando uma Tarefa
+- [x] - Salvando os Itens
+- [x] - Lendo os Itens
+- [x] - Estilizando o Corpo da Página
+- [x] - Estilizando os Itens
+- [x] - Estilizando o Botão
+- [x] - Alternando as Visualizações
+- [x] - Estilizando o Formulário
+- [x] - Estilizando as Ações da Lista
