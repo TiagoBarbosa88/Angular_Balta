@@ -1,0 +1,77 @@
+{
+  "uuid": "16aa59e9-f2d4-4388-a5f5-3d45597919ee",
+  "lastMigration": 25,
+  "name": "Mockon",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "0.0.0.0",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "1de65042-51bd-4318-8500-6e14a4fb2078",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "products",
+      "responses": [
+        {
+          "uuid": "6a28a47c-a81e-49f5-8b80-09d70d89784e",
+          "body": "{\r\n  \"uuid\": \"16aa59e9-f2d4-4388-a5f5-3d45597919ee\",\r\n  \"lastMigration\": 25,\r\n  \"name\": \"Mockon\",\r\n  \"endpointPrefix\": \"\",\r\n  \"latency\": 0,\r\n  \"port\": 3000,\r\n  \"hostname\": \"0.0.0.0\",\r\n  \"folders\": [],\r\n  \"routes\": [\r\n    {\r\n      \"uuid\": \"1de65042-51bd-4318-8500-6e14a4fb2078\",\r\n      \"documentation\": \"\",\r\n      \"method\": \"get\",\r\n      \"endpoint\": \"\",\r\n      \"responses\": [\r\n        {\r\n          \"uuid\": \"6a28a47c-a81e-49f5-8b80-09d70d89784e\",\r\n          \"body\": \"{}\",\r\n          \"latency\": 800,\r\n          \"statusCode\": 200,\r\n          \"label\": \"\",\r\n          \"headers\": [],\r\n          \"bodyType\": \"INLINE\",\r\n          \"filePath\": \"\",\r\n          \"databucketID\": \"\",\r\n          \"sendFileAsBody\": false,\r\n          \"rules\": [],\r\n          \"rulesOperator\": \"OR\",\r\n          \"disableTemplating\": false,\r\n          \"fallbackTo404\": false,\r\n          \"default\": true\r\n        }\r\n      ],\r\n      \"enabled\": true,\r\n      \"responseMode\": null\r\n    }\r\n  ],\r\n  \"rootChildren\": [\r\n    {\r\n      \"type\": \"route\",\r\n      \"uuid\": \"1de65042-51bd-4318-8500-6e14a4fb2078\"\r\n    }\r\n  ],\r\n  \"proxyMode\": false,\r\n  \"proxyHost\": \"\",\r\n  \"proxyRemovePrefix\": false,\r\n  \"tlsOptions\": {\r\n    \"enabled\": false,\r\n    \"type\": \"CERT\",\r\n    \"pfxPath\": \"\",\r\n    \"certPath\": \"\",\r\n    \"keyPath\": \"\",\r\n    \"caPath\": \"\",\r\n    \"passphrase\": \"\"\r\n  },\r\n  \"cors\": true,\r\n  \"headers\": [\r\n    {\r\n      \"key\": \"Content-Type\",\r\n      \"value\": \"application/json\"\r\n    }\r\n  ],\r\n  \"proxyReqHeaders\": [\r\n    {\r\n      \"key\": \"\",\r\n      \"value\": \"\"\r\n    }\r\n  ],\r\n  \"proxyResHeaders\": [\r\n    {\r\n      \"key\": \"\",\r\n      \"value\": \"\"\r\n    }\r\n  ],\r\n  \"data\": []\r\n}",
+          "latency": 800,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "1de65042-51bd-4318-8500-6e14a4fb2078"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
