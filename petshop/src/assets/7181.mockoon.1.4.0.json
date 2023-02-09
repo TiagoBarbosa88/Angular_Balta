@@ -1,49 +1,16 @@
 {
-  "uuid": "f359ec9c-ec2e-4970-9859-ea3f641246cf",
+  "uuid": "e5825e59-52d2-48f1-9a5d-1ea49040f01e",
   "lastMigration": 25,
   "name": "7181.mockoon.1.4.0",
-  "endpointPrefix": "",
+  "endpointPrefix": "v1",
   "latency": 0,
   "port": 3000,
   "hostname": "0.0.0.0",
   "folders": [],
-  "routes": [
-    {
-      "uuid": "46edc853-4549-45b2-b9bd-2ae74e152510",
-      "documentation": "",
-      "method": "get",
-      "endpoint": "products",
-      "responses": [
-        {
-          "uuid": "1408f66b-231f-414e-8bd1-fd82d15e0702",
-          "body": "{\r\n  \"uuid\": \"05e7bc20-8c30-4aa3-8a66-ed04114679d7\",\r\n  \"lastMigration\": 25,\r\n  \"name\": \"Mockon\",\r\n  \"endpointPrefix\": \"localhost\",\r\n  \"latency\": 0,\r\n  \"port\": 3000,\r\n  \"hostname\": \"0.0.0.0\",\r\n  \"folders\": [],\r\n  \"routes\": [\r\n    {\r\n      \"uuid\": \"bdc43144-e9bc-44d9-aa23-62328064a75a\",\r\n      \"documentation\": \"\",\r\n      \"method\": \"get\",\r\n      \"endpoint\": \"products\",\r\n      \"responses\": [\r\n        {\r\n          \"uuid\": \"ea23861e-3cc7-43ab-81b0-0c66dfd075c6\",\r\n          \"body\": \"{}\",\r\n          \"latency\": 800,\r\n          \"statusCode\": 200,\r\n          \"label\": \"\",\r\n          \"headers\": [\r\n            {\r\n              \"key\": \"\",\r\n              \"value\": \"\"\r\n            }\r\n          ],\r\n          \"bodyType\": \"INLINE\",\r\n          \"filePath\": \"C:\\\\Users\\\\PC-CASA\\\\Desktop\\\\Angular BaltaIO\\\\petshop\\\\src\\\\assets\\\\mockon.json\",\r\n          \"databucketID\": \"\",\r\n          \"sendFileAsBody\": true,\r\n          \"rules\": [],\r\n          \"rulesOperator\": \"OR\",\r\n          \"disableTemplating\": false,\r\n          \"fallbackTo404\": false,\r\n          \"default\": true\r\n        }\r\n      ],\r\n      \"enabled\": true,\r\n      \"responseMode\": null\r\n    },\r\n    {\r\n      \"uuid\": \"93a2d93d-359d-48a0-8e1c-b0f0f4bbe1ff\",\r\n      \"documentation\": \"\",\r\n      \"method\": \"get\",\r\n      \"endpoint\": \"pets\",\r\n      \"responses\": [\r\n        {\r\n          \"uuid\": \"6c146dbf-022e-4966-8f06-e7915c3d9db4\",\r\n          \"body\": \"{}\",\r\n          \"latency\": 800,\r\n          \"statusCode\": 200,\r\n          \"label\": \"\",\r\n          \"headers\": [\r\n            {\r\n              \"key\": \"\",\r\n              \"value\": \"\"\r\n            }\r\n          ],\r\n          \"bodyType\": \"INLINE\",\r\n          \"filePath\": \"C:\\\\Users\\\\PC-CASA\\\\Desktop\\\\Angular BaltaIO\\\\petshop\\\\src\\\\assets\\\\mockon.json\",\r\n          \"databucketID\": \"\",\r\n          \"sendFileAsBody\": false,\r\n          \"rules\": [],\r\n          \"rulesOperator\": \"OR\",\r\n          \"disableTemplating\": false,\r\n          \"fallbackTo404\": false,\r\n          \"default\": true\r\n        }\r\n      ],\r\n      \"enabled\": true,\r\n      \"responseMode\": null\r\n    }\r\n  ],\r\n  \"rootChildren\": [\r\n    {\r\n      \"type\": \"route\",\r\n      \"uuid\": \"bdc43144-e9bc-44d9-aa23-62328064a75a\"\r\n    },\r\n    {\r\n      \"type\": \"route\",\r\n      \"uuid\": \"93a2d93d-359d-48a0-8e1c-b0f0f4bbe1ff\"\r\n    }\r\n  ],\r\n  \"proxyMode\": false,\r\n  \"proxyHost\": \"\",\r\n  \"proxyRemovePrefix\": false,\r\n  \"tlsOptions\": {\r\n    \"enabled\": false,\r\n    \"type\": \"CERT\",\r\n    \"pfxPath\": \"\",\r\n    \"certPath\": \"\",\r\n    \"keyPath\": \"\",\r\n    \"caPath\": \"\",\r\n    \"passphrase\": \"\"\r\n  },\r\n  \"cors\": true,\r\n  \"headers\": [\r\n    {\r\n      \"key\": \"Content-Type\",\r\n      \"value\": \"application/json\"\r\n    }\r\n  ],\r\n  \"proxyReqHeaders\": [\r\n    {\r\n      \"key\": \"\",\r\n      \"value\": \"\"\r\n    }\r\n  ],\r\n  \"proxyResHeaders\": [\r\n    {\r\n      \"key\": \"\",\r\n      \"value\": \"\"\r\n    }\r\n  ],\r\n  \"data\": []\r\n}",
-          "latency": 800,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true
-        }
-      ],
-      "enabled": true,
-      "responseMode": null
-    }
-  ],
-  "rootChildren": [
-    {
-      "type": "route",
-      "uuid": "46edc853-4549-45b2-b9bd-2ae74e152510"
-    }
-  ],
+  "routes": [],
+  "rootChildren": [],
   "proxyMode": false,
-  "proxyHost": "http:/localhost",
+  "proxyHost": "",
   "proxyRemovePrefix": false,
   "tlsOptions": {
     "enabled": false,
